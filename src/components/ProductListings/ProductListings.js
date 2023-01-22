@@ -20,8 +20,10 @@ export const ProductListings = () => {
   }, []);
 
   return (
-    <div className="ui grid container">
-      <Product />
+    <div style={{ margin: '2px', padding: '10px' }}>
+      <div className="ui grid container">
+        <Product />
+      </div>
     </div>
   );
 };
